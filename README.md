@@ -40,3 +40,20 @@ End-to-end connectivity was tested using ICMP ping between PCs on different LANs
 
 ## Learning Goals
 Practice network configuration, routing between LANs, and troubleshooting in Cisco Packet Tracer.
+
+## Network Topology
+
+```mermaid
+flowchart LR
+    PC0["PC0 - 192.168.1.10"] --- SW0["SW0 - VLAN 10 SALES"]
+    SW0 --- R0["R0"]
+
+    PC1["PC1 - 192.168.2.20"] --- SW1["SW1 - VLAN 20 HR"]
+    SW1 --- R0
+
+    R0 ---|"10.0.0.0/30"| R1["R1"]
+
+    R1 --- SW2["SW2 - VLAN 30 IT"]
+    SW2 --- PC2["PC2 - 192.168.3.10"]
+
+
