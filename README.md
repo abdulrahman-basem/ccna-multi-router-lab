@@ -57,3 +57,12 @@ flowchart LR
     SW2 --- PC2["PC2 - 192.168.3.10"]
 
 
+## Configuration & Verification
+
+### Verification Commands
+```text
+show ip interface brief
+show ip route
+show vlan brief
+show interfaces trunk
+show running-config
