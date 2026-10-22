@@ -78,3 +78,7 @@ ICMP ping tests were used to verify connectivity between PCs on different LANs. 
 
 ---
 Project created as part of hands-on CCNA review and networking practice.
+
+## Project Screenshot
+
+![Network Topology](topology.png)
