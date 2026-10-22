@@ -81,4 +81,4 @@ Project created as part of hands-on CCNA review and networking practice.
 
 ## Project Screenshot
 
-![Network Topology](topology.png)
+![Network Topology](topology.png.png)
